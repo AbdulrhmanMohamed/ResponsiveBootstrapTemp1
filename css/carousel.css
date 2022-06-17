@@ -1,0 +1,10 @@
+.carousel-caption {
+    background: rgba(255 255 255 /30%);
+    border-radius: 5px;
+    padding-top: 2.7rem;
+    padding-bottom: 1.35rem;
+}
+
+.carousel-caption .btn {
+    color: #CCCCFF !important;
+}

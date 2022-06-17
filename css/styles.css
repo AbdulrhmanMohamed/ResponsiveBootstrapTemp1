@@ -1,0 +1,148 @@
+@import url('./navbar.css');
+@import url('./carousel.css');
+@import url('./accordion.css');
+@import url('./welcome-section.css');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #777;
+    
+}
+
+h1,h2,h3,h4{
+    margin: 0 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a_link{
+    color: #ccccff !important;
+    text-decoration: underline !important;
+}
+
+
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background: rgb(0 0 0/20%);
+}
+
+
+/* Start Languages */
+
+
+
+.code-body button {
+    position: relative;
+}
+
+.code-body button::after {
+    display: none;
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 6px;
+    width: 15px;
+    height: 15px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent transparent #ADD8E6 transparent;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.code-body button::before {
+    content: 'copy to Clip Board';
+    font-size: 16px;
+    position: absolute;
+    top: 52px;
+    left: -25px;
+    min-width: 100px;
+    word-wrap: break-word;
+    height: 50px;
+    background: #ADD8E6;
+    border-radius: 7px;
+    text-align: center;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: black;
+}
+
+.code-body button:hover:before,
+.code-body button:hover:after {
+    display: block;
+    opacity: 1;
+}
+
+.code-body p {
+    color: #0DCAE4;
+    margin: 100px;
+}
+
+
+/* Start Fixed Image Section */
+
+section.fixed-image_1 {
+    background-image: url('../images/fixed1.jpg');
+}
+
+section.fixed-image_2 {
+    background-image: url('../images/fixed2.jpg');
+}
+
+section.fixed-image_1,
+section.fixed-image_2 {
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+/* Start Coding Skills */
+
+
+/* /* Start thanks for section */
+
+
+/* Start join us section */
+
+
+/* Start Footer Section */
+
+.icon-wrapper {
+    background-color: #45619d;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    margin: auto;
+}
+
+.footer__wrapper>p {
+    margin: 0 10px;
+}
+
+.footer hr{
+    margin: 0 !important;
+}
+
+.footer .icon-wrapper {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}

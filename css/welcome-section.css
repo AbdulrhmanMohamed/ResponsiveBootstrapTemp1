@@ -1,0 +1,11 @@
+.welcome h2 {
+    font-size: 43px;
+}
+
+.welcome button {
+    color: #ccccff !important;
+}
+
+.welcome button:hover {
+    color: white !important;
+}
